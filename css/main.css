@@ -1,0 +1,140 @@
+/*univerzalis*/
+
+	body{
+		font-size: 16px;
+		font-weight: 300;
+	}
+	
+	header{
+		color: blue;
+		font-size: 30px;
+		font-weight: bold;
+		font-style: italic;
+	}
+	audio{
+		align-self: left;
+	}
+	h1{
+		font-size:35px;
+	}
+	details{
+		border: solid black;
+		color: green;
+		font-weight: bolder;
+		display: block;
+		margin: 1 rem 1 rem;
+
+		box-shadow: 57px 43px 47px 8px rgba(179,18,18,0.7);
+	    -webkit-box-shadow: 57px 43px 47px 8px rgba(179,18,18,0.7);
+	    -moz-box-shadow: 57px 43px 47px 8px rgba(179,18,18,0.7);
+	}
+	.r:hover text{
+		border:1px solid red;
+		cursor: pointer;
+	}
+/*univerzalis vége*/
+
+/*index.html*/
+	.bemutatkozo{
+		border: solid black;
+		color: green;
+		font-weight: bolder;
+		display:inline-block;
+	}
+
+	.bemutatkozo img{
+		width:500px;
+		height:750px;
+		margin:5rem;
+		border: blue;
+		float: left;
+		vertical-align: top;
+		border-style: outset;
+	}
+	.adatok{
+		font-size:30px;
+		border:2rem;
+		color: black;
+		margin:1rem;
+		padding:4rem;
+
+	}	
+	.elettortenet{
+		border: solid black;
+		color: red;
+		font-size: 35PX;
+		font-weight: bolder;
+		display:inline-block;
+		margin:2rem;
+		padding:1rem;
+
+	}	
+	.elettortenet img{	
+		width:200px;
+		height:300px;
+		margin:1rem;
+		border: blue;
+		float: left;
+		vertical-align: top;
+		border-style: outset;
+
+	}	
+/*index.html vége*/
+
+/*1.html*/
+
+	.munka{
+		font-size: 30px;
+		text-align: center;
+		border: solid black;
+		color: black;
+		font-weight: bolder;
+		display:inline-block;
+	}
+
+	.munka img{
+		width:350px;
+		height:400px;
+		margin:5rem;
+		border: green;
+		float: left;
+		vertical-align: top;
+		border-style: outset;
+	}
+	.kiemel{
+		margin:3rem;
+		padding:4rem;
+		border: solid black;
+		display: inline-block;
+	}
+	.kiemel:hover text{
+		border:1px solid purple;
+		cursor: pointer;
+	}
+/*1.html vege*/
+
+/*2.html*/
+	.jelenleg{
+		margin: 5rem;
+		font-size: 25px;
+		text-align: center;
+		color: green;
+		font-weight: bolder;
+		display:inline-block;
+	}
+/*2.html vege*/
+
+/*3.html*/
+	.fejlodesek{
+		margin:3rem;
+		padding:4rem;
+		text-align: center;
+		border: solid black;
+		color: brown;
+		font-size: 25px;
+		font-weight: bolder;
+		display:inline-block;
+	}
+/*3.html vege*/
+
+@media (min-width: 992px;){}
